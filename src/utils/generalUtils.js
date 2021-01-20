@@ -3,7 +3,6 @@ export const reduceList = (ids, limit = 20) => {
 }
 
 export const formatIdsToDataList = async (ids, toPromise) => {
-  console.log(toPromise)
   const promises = ids.map(toPromise)
   const dataList = await Promise.all(promises)
 
