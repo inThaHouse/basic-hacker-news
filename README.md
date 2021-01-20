@@ -1,5 +1,11 @@
 # Hacker News Clone
 
+## Usage
+
+- install packages
+- `yarn start` and app should be visible at http://localhost:3000/
+- `yarn test` to check unit testing summary
+
 ## Summary of project
 
 - Project is leveraging the hacker news api.
